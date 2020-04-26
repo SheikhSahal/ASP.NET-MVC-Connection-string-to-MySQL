@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+@foreach(var s in ViewBag.emplist as List<MySQL_Connect_to_ASP.NET_MVC.Models.EMP>)
+{
+    @s.Name
+}
